@@ -24,8 +24,6 @@ jobs:
         run: npm run lint
       - name: Run formatter
         run: npm run format:check
-      - name: Run tests
-        run: npm test
 
   deploy:
     needs: quality

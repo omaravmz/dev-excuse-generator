@@ -36,5 +36,5 @@ jobs:
       - name: Deploy to Azure Web App
         uses: azure/webapps-deploy@v3
         with:
-          app-name: 'dev-excuse-generator'
+          app-name: 'excuse-generator'
           publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
